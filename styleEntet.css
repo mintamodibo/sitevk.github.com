@@ -1,0 +1,62 @@
+body{
+	
+	font-family: LUCIDA BRIGHT;
+}
+#Capture{
+    float: left;
+    margin-right: 100px;
+}
+
+/*centrer tt le txt*/
+.page_entière{
+	width:920px;
+	margin:0 auto;
+	padding: 0 20px;
+}
+
+/*fin */
+
+/*bloc en-tête*/
+header {
+	background-color: rgb(195,195,195);
+	padding: 1rem 0;
+}
+/*fin*/
+
+.devise{
+	width:570px;/*600px;*/
+	height:8px;
+	float:right;
+	margin:23px 12px 12px 0;
+	font-size: 18px;
+}
+.devise p{
+	font-size:30px;
+	color:#000;
+	text-align:center;
+}
+
+/*les liens de navigation*/
+.liens_de_nav ul {
+	background-color:white;
+	height:40px;
+	line-height:40px;
+}
+.liens_de_nav ul li {
+	text-align: center;/*centrer entre la barre du rouge*/
+	display: inline;
+	margin-right: 25px;/*espace entre acc fil ima...*/
+	font-size:20px;/*taille de acc fil imm...*/
+ }
+ 
+	section article .droite{
+	float: right;
+	width: 50px;
+	margin-left: 30px;
+	margin-top: 10px;
+	}
+	.droite{
+		height:300px;
+		width:300px;
+	}
+/*fin*/

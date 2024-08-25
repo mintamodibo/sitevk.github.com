@@ -1,0 +1,197 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background:url(../SITEVK/fd-2.jpg) center center fixed no-repeat; /*** NEW ***/
+	background-size:cover;/*** NEW ***/
+	position: ceneter;
+	font-family: "century Gothic";
+}
+nav {
+	width: 100%;
+	background-color: #424558;
+}
+nav > ul{
+	margin: 0px;
+	padding: 0px;
+}
+nav li {
+	list-style: none;
+}
+nav > ul >li{
+	float: left;
+	position: relative;
+} 
+nav >ul::after{
+	content:"";
+	display: table;
+	clear: both;
+}
+.submenu{
+	display: none;
+}
+nav input [type=checkbox]{
+	display: none;
+}
+nav label {
+	display: none;
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+
+}
+nav >ul >li > a{
+	padding: 20px 30px;
+	color: FFF;
+}
+nav >ul > li: hover a{
+	padding: 15px 30px 20px 30px;
+
+}
+
+nav li:hover .submenu{
+	display: inline-block;
+	position: absolute;
+	top: 100px;
+	left: 0%;
+	padding: 0px;
+	z-index: 1000;
+
+}
+.submenu li a{
+	padding:15px 30px;
+	font-size: 13px;
+	color: #222538;
+	width: 270px;
+}
+.submenu li{
+	border-bottom: 1px solid #CCC;
+}
+
+.menu-Accueil:hover{
+	border-top: 5px solid #e44d26;
+	background-color:rgba(228, 77, 38, 0.15) ;
+}
+.menu-Playlist:hover{
+	border-top: 5px solid #0070bb;
+	background-color:rgba(000, 112, 192, 0.15) ;
+}
+.menu-Accueil .submenu{
+	background-color: rgb(230, 100, 40);
+}
+.menu-Playlist .submenu{
+	background-color: rgb(000, 160, 240);
+}
+.submenu li:hover a{
+	color: #EEE;
+	font-weight: bold;
+}
+.menu-Accueil .submenu li :hover{
+	background-color: rgb(210, 77, 60);
+}
+.menu-Playlist .submenu li:hover{
+	background-color: rgb(000, 115, 200);
+}
+nav input[type=checkbox]:checked ~ ul{
+	display: block;
+}
+@media screen and (max-width: 780px){
+	.menu-mobile{
+		display: block;
+		color: #FFF;
+		background-color: Rgba(29, 197,151,0.97);
+		text-align: center;
+		padding: 12px 0px;
+	}
+	nav ul{
+		display: none;
+	}
+	nav ul li, nav ul li a{
+			width: 100%;
+			text-align: center;
+	}
+	nav ul li a, nav ul li: hover a {
+			padding: 10px 0px;
+	}
+	nav li :hover.submenu{
+		display: block;
+		position: static;
+	}
+}
+
+.table{
+	display: table;
+	margin: 0 auto;
+}
+#logo{
+	width:100px;
+	height:50px;
+		
+}
+.image1{
+	width: 200px;
+	float: right;
+
+}
+.image2{
+	width: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+
+	
+}
+.p1
+{
+	font-size:1.5em;
+	font-family:"century Gothic";
+	background-color:red;
+	color:white;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 1px 1px 2px;
+}
+
+.h1{
+	font-family:"century Gothic";
+	font-weight: bold;
+	border: 1px solid black;
+
+}
+address
+{
+	text-align:center;
+	color:white;
+	width:100%;
+	background-color: #000000;
+	border: 0px solid black;
+	border-radius:10px;
+	padding-bottom:20px;
+	padding-top:20px;
+	
+}
+.NOM{
+	font-family:"century Gothic";
+	font-weight: bold;
+	border: 1px solid black;
+}
+.HIT{
+	font-size:1.5em;
+	font-family:"century Gothic";
+	background-color:#8b0000;
+	color:white;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 1px 1px 2px;
+
+}
+.image3{
+	
+	width: 1000px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+
+}

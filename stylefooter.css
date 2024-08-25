@@ -1,0 +1,38 @@
+
+footer{
+	margin-top:10px;
+	background-color: rgb(195,195,195);/*fond de couleur*/
+	padding:5px ;/*marge entre col infos et le site mm*/ 
+	font-size: 12px;/*taille de la police*/ 
+	
+
+}
+.p1{/*premiere division en 3 partie*/
+	display:flex;
+	flex-wrap: wrap;
+
+}
+li{
+	list-style: none;
+}
+.footer-col{
+	width:29%;
+	padding:0 15px ;/* espace entre les 3 blocs*/ 
+
+   font-size: 13px;
+}
+
+h2{
+	
+	margin-bottom: 15px;/*espace entre uniprmscet inf, sui,copy*/
+    margin-left: 240px;
+
+}
+.footer-col h3{
+	font-size: 20px;
+	color:red;
+	text-transform: capitalize;
+	margin-bottom: 17px;/*espace entre les titres inf, sui, copy, et les écritures d'en bas*/
+    
+
+}
